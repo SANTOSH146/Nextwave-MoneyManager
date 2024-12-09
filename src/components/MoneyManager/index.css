@@ -1,0 +1,99 @@
+/* Write your CSS here */
+.moneymanager-card {
+  display: flex;
+  flex-direction: column;
+  margin: 6vw;
+  justify-content: start;
+  border-radius: 5px;
+  height: 26vh;
+  width: 80vw;
+  background-color: rgba(215, 223, 233, 0.7);
+  align-items: flex-start;
+  opacity: initial;
+}
+
+.highlighted-text {
+  color: blue;
+}
+
+.text {
+  margin-left: 2vw;
+}
+
+.add-transaction-form {
+  height: 80vh;
+  width: 30vw;
+  border-radius: 10px;
+  border-color: solid black;
+  background-color: white;
+  display: flex;
+  margin: 5vw 0 0 5vw;
+  flex-direction: column;
+}
+
+.add-transaction-history {
+  height: 80vh;
+  width: 40vw;
+  border-radius: 10px;
+  border-color: solid black;
+  background-color: white;
+  display: flex;
+  margin: 5vw 0 0 5vw;
+  flex-direction: column;
+}
+
+.page {
+  margin-bottom: 15vh;
+  display: flex;
+}
+
+.form-temp {
+  display: flex;
+  justify-content: start;
+  margin: 0 2vw 2vw;
+  flex-direction: column;
+  padding: 2vw;
+}
+
+.input-label {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  margin-bottom: 2vh;
+}
+
+input {
+  width: 20vw;
+  height: 5vh;
+}
+
+select {
+  width: 20vw;
+  height: 5vh;
+}
+
+.add-btn {
+  background-color: skyblue;
+  height: 5vh;
+  width: 7vw;
+  border: none;
+  border-radius: 5px;
+}
+
+.add-btn:hover {
+  background-color: aquamarine;
+}
+
+.third-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.history-list {
+  list-style: none;
+  display: flex;
+}
+
+.his-item {
+  margin-right: 7vw;
+}

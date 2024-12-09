@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.Moneydetails-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 8vh;
+  gap: 2vw;
+}
+
+.detail-card-balance {
+  background-color: rgba(236, 252, 203, 0.7);
+  border: 1px solid rgba(236, 252, 203, 0.9);
+  height: 25vh;
+  width: 23vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  border-radius: 5px;
+}
+
+.detail-card-income {
+  background-color: rgba(207, 250, 254, 0.7);
+  border: 1px solid rgba(207, 250, 254, 0.9);
+  height: 25vh;
+  width: 23vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  border-radius: 5px;
+}
+
+.detail-card-expense {
+  background-color: rgba(124, 58, 237, 0.7);
+  border: 1px solid rgba(124, 58, 237, 0.9);
+  height: 25vh;
+  width: 23vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  border-radius: 5px;
+  border-width: solid 10px;
+  border-color: black;
+}
+
+.icon-image {
+  height: 15vh;
+  width: 8vw;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
